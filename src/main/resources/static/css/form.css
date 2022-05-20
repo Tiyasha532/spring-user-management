@@ -1,0 +1,47 @@
+#bg {
+  background-image: url('Tutorial.jpeg');
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  filter: blur(5px);
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: scroll;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+  }
+  
+  form {
+    width: 350px;
+    position: relative;
+  }
+  
+
+  form .btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 6px 10px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  
+  form .btn:hover {
+    background-color: RoyalBlue;
+  }
+
+    
+
+
